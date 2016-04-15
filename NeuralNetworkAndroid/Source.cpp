@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// This is a new commit
+
 void Print(vector<double> vec)
 {
 	for (int i = 0; i < vec.size(); i++)
