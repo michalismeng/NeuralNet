@@ -61,6 +61,8 @@ extern "C" void Feed(void* network, double* params)
 	for (int i = 0; i < 2; i++)
 		temp.push_back(params[i]);
 
+	cout << "Parameters passed fine" << endl;
+
 	Print(net.Feed(temp));
 
 	cout << "End print" << endl;
